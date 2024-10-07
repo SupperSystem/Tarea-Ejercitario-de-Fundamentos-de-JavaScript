@@ -14,7 +14,7 @@ function compareZeroAndZero() {
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
     // Tu código aquí...
-    console.log(7 >= 8 < 10); //true
+    console.log(7 > 8 && 8 < 10); //true
 }
 //compareSeven();
 // Operadores lógicos
@@ -75,8 +75,7 @@ function checkUserNameType() {
 function checkDogIdIsString() {
     // Tu código aquí...
     let dogId = 'ID: 1';
-    typeof dogId === "string"
-    console.log(dogId); //string
+    console.log(typeof dogId); //string
 }
 //checkDogIdIsString();
 // console.log()
